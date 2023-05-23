@@ -1,0 +1,14 @@
+{
+    "aws": {
+        "use_custom_region": "true",
+        "endpoint": "minio-storage.services.mkz.me"
+    },
+    "cache": {
+        "location": "/tmp/cache"
+    },
+    "redirect": [
+        {
+            "/blah2": "/blah.pdf"
+        }
+    ]
+}
